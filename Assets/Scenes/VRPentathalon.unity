@@ -1980,7 +1980,7 @@ GameObject:
   - component: {fileID: 264292335}
   - component: {fileID: 264292334}
   - component: {fileID: 264292342}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2014,7 +2014,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 2
-  m_Radius: 0.5
+  m_Radius: 0.25
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -2162,7 +2162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264292333}
   m_LocalRotation: {x: 0, y: 0.6234226, z: 0, w: 0.7818851}
-  m_LocalPosition: {x: -73.4, y: 0, z: -46.36}
+  m_LocalPosition: {x: -43.517, y: 0, z: -50.007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19205,6 +19205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Basketball Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 4903175439121103421, guid: 90964b1184b2e8d4a979c56e3852320c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90964b1184b2e8d4a979c56e3852320c, type: 3}
